@@ -1,7 +1,7 @@
 body{
 
     background-image: url(/myRepo/images/apple.jpg);
-    background-size: contain;
+    background-size: 100%;
 
 }
 .header{
