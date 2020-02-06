@@ -12,4 +12,19 @@ body{
     font-family: Cuprum, Arial, Helvetica, sans-serif;
     color: whitesmoke;
     opacity: 0.5;
+    position: absolute;
 }
+
+.menu{
+    margin:0;
+    padding:0;
+}
+.menu ul,
+.menu li{
+    list-style: none;
+
+}
+.menu>ul{
+    display: flex;
+    justify-content: center;
+   }    
