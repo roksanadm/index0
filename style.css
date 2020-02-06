@@ -28,14 +28,24 @@ body{
     justify-content: center;
    }    
    .menu a{
-       display: block;
+    
        background-color: black;
-       border-top: 1px solid grey;
+       text-decoration: none;
+        font-family: sans-serif;
+        color: #5757a0;
+        display: inline-block;
+        padding: 10px 20px;
+        border-bottom: 5px solid #5757a0;
+      }
    
     }
 .menu{
     padding-left: 0;
     margin-left: 0;
     width: 300px;
-    border-bottom: 1px solid grey;
+    
+}
+.menu li{
+    display: inline;
+    float: left;
 }
