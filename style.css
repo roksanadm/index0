@@ -5,11 +5,11 @@ body{
     height: 2000;
 }
 .header{
-    width: auto;
-    height: 200px;
+    width:inherit;
+    height: 100px;
     background-color: black;
-    margin: 200px;
-    font-family: Cuprum, Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-family: Casual, Cuprum, Arial, Helvetica, sans-serif;
     color: whitesmoke;
     opacity: 0.5;
     position: absolute;
