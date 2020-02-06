@@ -1,8 +1,8 @@
 body{
 
     background-image: url(/myRepo/images/apple.jpg);
-    width: 800px;
-    height: 2000;
+    background-size: contain;
+
 }
 .header{
     width:100%;
