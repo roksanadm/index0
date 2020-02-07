@@ -3,6 +3,10 @@ body{
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
     background-attachment: fixed;
+    max-width: 1600px;
+    min-width: 500px;
+    max-height: 2000px;
+    min-height: auto;
     
 
 }
@@ -130,5 +134,6 @@ flex: 1 0 auto;
     margin-bottom: 2px;
     margin: 0 auto;
     margin-left: 550px;
+    position: absolute;
 }
        
