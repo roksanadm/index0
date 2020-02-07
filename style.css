@@ -2,6 +2,9 @@ body{
 
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+
 
 }
 
@@ -115,6 +118,12 @@ flex: 1 0 auto;
             background-color: black;
             opacity: 0.8;
             margin-top: 40px;
+            color: blanchedalmond;
+            
         }
-
+.textfooter{
+    margin-bottom: 2px;
+    margin: 180px;
+    margin-left: 550px;
+}
        
