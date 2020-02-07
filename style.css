@@ -30,6 +30,9 @@ body{
 .menu{
     margin:0;
     padding:0;
+    max-width: 1600px;
+    min-width: 500px;
+    
 
 }
 .menu ul,
@@ -61,8 +64,9 @@ body{
         font-size: 20px;
         height: 36px;
         width: 100px;
-        position: absolute;
+        position:sticky;
         margin-left: 1000px;
+        
         
         }
        
@@ -118,7 +122,9 @@ flex: 1 0 auto;
             opacity: 0.8;
             margin-top: 40px;
             color: blanchedalmond;
-            
+            margin-bottom: 2px;
+            max-width: 1600px;
+            min-width: 500px;
         }
 .textfooter{
     margin-bottom: 2px;
