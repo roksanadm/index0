@@ -37,7 +37,7 @@ body{
     margin:0;
     padding:0;
     max-width: 1600px;
-    min-width: 500px;
+    min-width: 200px;
     width: 100%;
     height: auto;
 
@@ -71,7 +71,7 @@ body{
         font-size: 20px;
         height: 36px;
         width: 100px;
-        position:sticky;
+        position:static;
         margin-left: 1000px;
         
         
@@ -131,7 +131,7 @@ flex: 1 0 auto;
             color: blanchedalmond;
             margin-bottom: 2px;
             max-width: 1600px;
-            min-width: 500px;
+            min-width: 200px;
         }
 .textfooter{
     margin-bottom: 2px;
