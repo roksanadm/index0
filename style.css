@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|BenchNine|Great+Vibes|Sacramento|Satisfy&display=swap');
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'BenchNine', sans-serif;
+*/
+
+.header{
+    font-family: 'BenchNine', sans-serif;}
 body{
 
     background-image: url(../myRepo/images/apple.jpg);
@@ -21,12 +31,12 @@ body{
     height: 100px;
     background-color: black;
     margin-top: 5px;
-    font-family: Casual, Cuprum, Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: whitesmoke;
     opacity: 0.5;
     text-decoration: wavy;
     box-shadow:10px 10px 7px rgba(0, 0, 0, 0.6);
+  
 }
 
 .colortext{
@@ -50,7 +60,8 @@ body{
 .menu>ul{
     display: flex;
     justify-content: center;
-   }    
+    padding: 20px;
+}    
 .menu a{
     
        background-color: black;
@@ -60,11 +71,14 @@ body{
         display: inline-block;
         padding: 10px 20px;
         border-bottom: 5px solid #838388;
+        padding: 20px;
+
       }
 
 .menu li{
     display: inline;
-  
+    padding: 2px;
+
 }
 
 .contact form{
@@ -138,5 +152,6 @@ flex: 1 0 auto;
     margin: 0 auto;
     margin-left: 550px;
     position: absolute;
+    font-family: 'Sacramento', cursive;
 }
        
