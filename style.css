@@ -126,23 +126,10 @@ height: 400px;
 
 
 
-        .wrapper{
-            display: flex;
-            flex-direction: column;
-            min-height: 100%;
-        
-        }
-
-        .content{
-flex: 1 0 auto;
-
-        }
-
-        .footer{
-            flex: 0 0 auto;
-        }
+      
         .footer{
             display: inline-flexbox;
+            flex: auto;
             width: 100%;
             height: 200px;
             background-color: black;
@@ -154,10 +141,10 @@ flex: 1 0 auto;
             min-width: 200px;
         }
 .textfooter{
-    margin-bottom: 2px;
-    margin: 0 auto;
-    margin-left: 550px;
-    position: absolute;
+    display: inline-flex;
+    /*margin: 0 auto;*/
+    margin-left: 49%;
+    margin-right: 49%;
     font-family: 'Sacramento', cursive;
 }
        
