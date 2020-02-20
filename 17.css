@@ -1,0 +1,14 @@
+form{
+    float: left;
+}
+.service{
+    float: left;
+}
+
+
+.fieldset{
+    float: left;
+    width: 100px;
+    height: 50px;
+
+}
