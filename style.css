@@ -13,10 +13,7 @@ body{
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
     background-attachment: fixed;
-    max-width: 1600px;
-    min-width: 500px;
-    max-height: 2000px;
-    min-height: auto;
+    min-width: 1000px;
     width: 100%;
     height: 100%;
     
@@ -28,6 +25,7 @@ body{
 
 .header{
     display: flex;
+    flex-wrap: nowrap;
     width:98%;
     margin-left: 1%;
     margin-right: 1%;
@@ -48,6 +46,8 @@ body{
 
 .menu{
     display: flex;
+   /* flex-wrap: nowrap;*/
+    justify-content: space-evenly;
     /*margin:0;
     padding:0;*/
     max-width: 1600px;
@@ -58,7 +58,7 @@ body{
 }
 .menu ul,
 .menu li{
-    flex: 1;
+    display: block;
     list-style: none;
 
 }
@@ -80,20 +80,19 @@ body{
       }
 
 .menu li{
+    
     display: inline-flex;
     padding: 2px;
 
 }
 
 .contact form{
-        display: inline-flexbox;
+        display: flexbox;
+        margin-left: 80%;
         font-size: 20px;
         height: 36px;
         width: 100px;
-        position: sticky;
-       margin-left: 80%;
-        
-        
+               
         }
        
 
@@ -132,6 +131,7 @@ height: 400px;
         .footer{
             display: inline-flexbox;
             flex: auto;
+            justify-content: space-evenly;
             width: 98%;
             height: 200px;
             background-color: black;
@@ -146,6 +146,7 @@ height: 400px;
         }
 .textfooter{
     display: inline-flex;
+    justify-content: space-between;
     /*margin: 0 auto;*/
     margin-left: 49%;
     margin-right: 49%;
