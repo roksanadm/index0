@@ -9,7 +9,8 @@ font-family: 'BenchNine', sans-serif;
 .header{
     font-family: 'BenchNine', sans-serif;}
 body{
-
+    @media screen and (max-width: 600px);
+    box-sizing: border-box;
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
     background-attachment: fixed;
@@ -24,6 +25,8 @@ body{
 
 
 .header{
+   /* @media screen and (max-width: 600px);
+    box-sizing: border-box;*/
     display: flex;
     flex-wrap: nowrap;
     width:100%;
@@ -88,7 +91,8 @@ body{
 
 .contact form{
         display: flexbox;
-        margin-left: 80%;
+        float: right;
+        margin-right: 20%;
         font-size: 20px;
         height: 36px;
         width: 100px;
@@ -129,20 +133,25 @@ height: 400px;
 
       
         .footer{
-            display: inline-flexbox;
-            flex: auto;
-            justify-content: space-evenly;
-            width: 98%;
-            height: 200px;
+           
+            display: flex;
+            flex-wrap: nowrap;
+            height:100px ;
+            width: 100%;
             background-color: black;
             opacity: 0.8;
-            margin-top: 40px;
+            margin-top: 100px;
             color: blanchedalmond;
-            margin-bottom: 2px;
             margin-left: 0;
             margin-right: 0;
             min-width: 1000px;
         }
+
+        
+
+
+
+
 .textfooter{
     display: inline-flex;
     justify-content: space-between;
