@@ -24,8 +24,8 @@ body{
 
 
 .header{
-   /* @media screen and (max-width: 600px);
-    box-sizing: border-box;*/
+    @media screen and (max-width: 600px);
+    box-sizing: border-box;
     display: flex;
     flex-wrap: nowrap;
     width:100%;
@@ -39,6 +39,7 @@ body{
     opacity: 0.5;
     text-decoration: wavy;
     box-shadow:10px 10px 7px rgba(0, 0, 0, 0.6);
+    min-width: 1000px;
   
 }
 
