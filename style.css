@@ -100,14 +100,14 @@ content{
 
    
 .imgizi{
-float: right;
+float: left;
 width: 48%;
 
 }
 
 
     .izi{
-        float: right;
+        float: left;
         display: grid;
         width: 200px;
         height: 200px;
