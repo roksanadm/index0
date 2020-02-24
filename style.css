@@ -45,13 +45,10 @@ header{
 
 
 .menu{
+    margin-top: 15px;
     display: grid;
-   /* flex-wrap: nowrap;*/
     justify-content: space-evenly;
-    /*margin:0;
-    padding:0;*/
     max-width: 1600px;
-
     height: auto;
 
 }
@@ -74,7 +71,6 @@ header{
        text-decoration: none;
         font-family: sans-serif;
         color: #dcdce4;
-        padding: 10px 20px;
         border-bottom: 5px solid #838388;
         padding: 20px;
 
@@ -150,3 +146,51 @@ color: blanchedalmond;
 font-family: 'Sacramento', cursive;
 position: absolute;
 }
+
+
+
+
+ 
+
+/*стили для мобильных версий*/
+/*
+header{
+    grid-area: heading;
+}
+
+aside{
+    grid-area: sidebar;
+}
+
+.imgizi{
+    grid-area: img;
+}
+
+content{
+    grid-area: form;
+}
+
+main{
+    grid-area: mcontent;
+}
+
+footer{
+    grid-area: footer;
+}
+
+@media(max-width:640px){
+    .grid{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "heading"
+    "sidebar"
+    "img"
+    "form"
+    "mcontent"
+    "footer"
+}}*/
+
+
+
+
+
