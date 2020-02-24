@@ -1,57 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|BenchNine|Great+Vibes|Sacramento|Satisfy&display=swap');
-/*font-family: 'Amatic SC', cursive;
+/*@import url('https://fonts.googleapis.com/css?family=Amatic+SC|BenchNine|Great+Vibes|Sacramento|Satisfy&display=swap');
+font-family: 'Amatic SC', cursive;
 font-family: 'Satisfy', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Sacramento', cursive;
-font-family: 'BenchNine', sans-serif;
-*/
-html{
-    height: 100%;
-}
-
-.header{
-    font-family: 'BenchNine', sans-serif;}
+font-family: 'BenchNine', sans-serif;*/
 body{
-    @media screen and (max-width: 600px);
+
     box-sizing: border-box;
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
     background-attachment: fixed;
-    height: 100%;
-    /* width: 100%; */
-    /* height: 100%; */
-    
+    height: 100%;}
 
+.colortext{
+    color: rgb(196, 29, 0);
+    font-size: 50px;
+   
+    
 }
 
 
 
+.grid{
+    display: grid;
+    grid-template-columns: 4fr;
 
-.header{
-    box-sizing: border-box;
-    display: flex;
-  /*  flex-wrap: nowrap;*/
-    width:100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 100px;
+}
+.item{
+    color: blanchedalmond;
     background-color: black;
-    /*margin-top: 5px;*/
-    font-size: 70px;
-    color: whitesmoke;
     opacity: 0.5;
-    text-decoration: wavy;
-    box-shadow:10px 10px 7px rgba(0, 0, 0, 0.6);
-    max-width: 2000px;
+    border: 1px solid rgb(243, 240, 240);
+    padding: 10px;
+}
+
+header{
+    height: 75px;
+    font-size: 50px;
+    
   
 }
 
-.colortext{
-    color: red;
-}
+
+
 
 .menu{
-    display: flex;
+    display: grid;
    /* flex-wrap: nowrap;*/
     justify-content: space-evenly;
     /*margin:0;
@@ -64,7 +58,7 @@ body{
 .menu ul,
 .menu li{
     
-    display: block;
+    display: inline-flex;
     list-style: none;
 
 }
@@ -88,104 +82,71 @@ body{
 
 .menu li{
     
-    display: inline-flex;
+    display: grid;
     padding: 2px;
 
 }
+content{
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows: minmax(200px, auto);
+    width: 48%;
 
-.contact form{
-        display: flexbox;
+    }
+    .contact form{
+       width: 50px;   
+        
+            }
+
+   
+.imgizi{
+float: right;
+width: 48%;
+
+}
+
+
+    .izi{
         float: right;
-        margin-right: 20%;
-        font-size: 20px;
-        height: 36px;
-        max-width: 200px;
-            
-        }
-       
-
-        .izi{
-            display: inline-flex;
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-        }
-.article1{
-max-width: 500px;
-height: 400px;
-
-}
-
-
-.articleform{
-    
-    position: relative;
-    display: block;
-    max-width: 400px;
-    max-height: 350px;
-    
-    background-color: black;
-    opacity: 0.6;
-    color: blanchedalmond;
-    font-size: 20px;
-    box-shadow:10px 10px 7px rgba(0, 0, 0, 0.6);
-
-}
-
-.article1{
-    margin: 50px;
-}
+        display: grid;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
 
 content{
-    padding-bottom: 90px;
+padding-bottom: 90px;
+}
+
+main{
+    width: 30%;
+    height: auto;
 }
 
 
-      
-        .footer{
-        margin-top: 200px;
-           position: fixed;
-           left: 0;
-           bottom: 0;
-           /* display: flex;
-            flex-wrap: nowrap;*/
-            height:80px ;
-            width: 100%;
-            background-color: black;
-            opacity: 0.8;
-            margin-top: 100px;
-            color: blanchedalmond;
-            margin-left: 0;
-            margin-right: 0;
-            min-width: 1000px;
-        }
 
-        
+footer{
+   
+       
+
+       display: grid;
+        height:80px ;
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        margin-top: 50px;
+    
+       
+      
+    }
+
+    
 
 
 
 
 .textfooter{
-    display: inline-flex;
-    justify-content: space-between;
-    /*margin: 0 auto;*/
-    margin-left: 49%;
-    margin-right: 49%;
-    font-family: 'Sacramento', cursive;
-    position: fixed;
-}
-
-@media screen and (max-width: 700px);
-.contact form{
-        
-        float:right;
-        width: 50px;
-        font-size: 20px;
-        height: 25px;
-
-    /*    .header{
-            width: 100%;
-        
-        }*/
-
+color: blanchedalmond;
+font-family: 'Sacramento', cursive;
+position: absolute;
 }
