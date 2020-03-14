@@ -1,0 +1,12 @@
+body{
+	box-sizing: border-box;
+	background-color: black;
+	background: black;
+  /*  background-image: url(l1.jpg);*/
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 4fr;}
