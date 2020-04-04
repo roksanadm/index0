@@ -21,6 +21,22 @@ body{
    
     
 }
+/*
+
+#container{
+    width: 200px;
+    height: 200px;
+    background: black;
+    position: relative;
+    
+}
+
+#box{
+    width: 50px;
+    height: 50px;
+    background: whitesmoke;
+    position: absolute;
+}*/
 
 
 
@@ -217,6 +233,10 @@ position: absolute;
     transform: rotateX(-180deg);
   }
  
+
+  .p1{
+      color: crimson;
+  }
 
 /*стили для мобильных версий*/
 /*
