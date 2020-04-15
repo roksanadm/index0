@@ -84,7 +84,7 @@ var images = [
  ];
 
  var num = 0;
-
+/*
  function next() {
    var slider = document.getElementById("slider");
    num++;
@@ -101,7 +101,7 @@ var images = [
      num = images.length-1;
    }
    slider.src = images[num];
- }
+ }*/
 
  function validate() {
   var n1 = document.getElementById("num1");
