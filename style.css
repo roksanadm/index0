@@ -10,8 +10,26 @@ body{
     background-image: url(../myRepo/images/apple.jpg);
     background-size:cover;
     background-attachment: fixed;
-    height: 100%;}
-
+    max-height: 1000px;
+    min-height: 320px 1fr;
+    min-width: 560px 1fr;
+    max-width: 2000px;
+    display: grid;
+    grid-template-areas:
+    “header header header header”
+    “nav nav nav nav”
+    ”formpassword formpassword imgbtn imgbtn”
+    ”aside aside aside aside”
+    “footer footer footer footer”;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 4fr;
+    grid-gap: 1px;
+    margin: 0;
+    }
+    header, footer, article, nav, div {
+    padding: 0px;
+    
+    }
 
 
     
@@ -56,12 +74,32 @@ body{
 header{
     height: 75px;
     font-size: 50px;
-    
-  
+   
 }
 
 
 
+.formpassword{
+    display: grid;
+    color: ivory;
+    opacity: 0.7;
+    width: 250px;
+    float:left;
+    margin-left: 80%;
+    margin-top: 20px;
+    border: black solid 3px;
+    padding-left: 20px;
+}
+
+.password_btn{
+color: lightseagreen;
+margin-left: 50px;
+width: 150px;
+
+
+
+
+}
 
 .menu{
     margin-top: 15px;
@@ -70,7 +108,8 @@ header{
     max-width: 1600px;
     height: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    ;
+    
+    
 
 }
 .menu ul,
@@ -95,7 +134,7 @@ header{
         color: #dcdce4;
         border-bottom: 5px solid #838388;
         padding: 20px;
-
+        
       }
 
 .menu li{
@@ -112,6 +151,10 @@ content{
     margin-top: 10px;
     grid-template-rows: minmax(200px, auto);
     width: 48%;
+    max-height: 1000px;
+    min-height: 320px;
+    min-width: 560px;
+    max-width: 2000px;
 
     }
     .contact form{
@@ -156,7 +199,7 @@ footer{
         background-color: black;
         opacity: 0.8;
         margin-top: 50px;
-    
+      
        
       
     }

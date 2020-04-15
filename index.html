@@ -22,7 +22,8 @@
 
 <div class="grid">
     
-<div><header class="item">Roks Dm<span class="colortext"> /&gt;</span></header></div>
+<div><header class="item">Roks Dm<span class="colortext"> /&gt;</span>
+</header></div>
 
 
 
@@ -40,9 +41,22 @@
     </nav></aside></div>
 
 
+  <div class="formpassword"><form onsubmit="return validate()" method="post">
+        <em>Введите ваш пароль:</em><input type="text" name="num1" id="num1" />
+        <br />
+       <em> Повторите пароль:</em> <input type="text" name="num2" id="num2" />
+        <br />
+      <button class="password_btn">  <input type="submit" value="Отправить" /></button>
+      </form>
+    </div>
 
-<button>Предыдущая</button>
-<button>Следующая</button>
+
+    <div class="imgbtn">
+<button onclick="prev()">Предыдущая</button>
+<img id="slider" src="images/slider1.jpg"
+ width="200px" height="200px">
+<button onclick="next()">Следующая</button>
+</div>
 
 
 
