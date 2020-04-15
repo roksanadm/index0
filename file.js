@@ -73,7 +73,7 @@ element.addEventListener("mouseover", myFunction);
 function myFunction() {
   alert("Hello World!");
 }
-
+/*
 var images = [
     "images/slider1.jpg", 
     "images/slider2.jpg", 
@@ -84,7 +84,7 @@ var images = [
  ];
 
  var num = 0;
-/*
+
  function next() {
    var slider = document.getElementById("slider");
    num++;
